@@ -3,10 +3,10 @@
 ## Overview
 
 Binary classification of brain X-ray images of patient diagnosed with brain tumor using deep neural networks. <br>
-Our results with MLP and Deep CNN models show that Deep CNN architectures are not always the solution to image classification. <br><br>
+Our results with MLP and Deep CNN models show that Deep CNN architectures are not always the solution to image classification. 
 
 ## Data
-This project was carried out with data from [Kaggle's Brain Tumor Dataset](https://www.kaggle.com/preetviradiya/brian-tumor-dataset) with train:test ratio of 8:2.
+This project was carried out with data from [Kaggle's Brain Tumor Dataset](https://www.kaggle.com/preetviradiya/brian-tumor-dataset) with train-test ratio of 8:2.
 
 **Brain Tumor**
 * X-ray images of brains with tumor<br>
@@ -32,9 +32,19 @@ No pretrained model was used for this project
 | Model | Accuracy | F1-Score |
 |:-----:|:--------:|:--------:|
 | MLP | 99.35% | 0.99 |
-| LeNet | - | - |
+| LeNet | 97.72% | 0.98 |
 | AlexNet | 94.02% | 0.94 |
 | ResNet16 | 83.28% | 0.83 |
 <br>
 
 ## Structure
+```
+Brain Tumor Classification
+├── README.md
+├── code
+│   ├───AlexNet.ipynb
+│   ├───LeNet.ipynb
+│   ├───MLP.ipynb
+│   └───ResNet.ipynb
+│   
+```
