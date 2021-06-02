@@ -1,5 +1,6 @@
 # Directories # 
-!/BrainTumorData/
+BrainTumorData/
+splitted/
 
 # Package Files
 *.zip
